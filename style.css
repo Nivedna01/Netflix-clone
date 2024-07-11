@@ -1,0 +1,523 @@
+*{
+    background-color: rgba(35, 35, 35, 1);
+    color: white;
+    font-family:"Roboto", sans-serif;
+    margin: 0%;
+}
+
+/* ************************BOX1************************************************************** */
+
+.box1{
+    background-image: url(assets/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1250px ,100vw);
+    height: 700px;
+    position:relative;
+    
+ }
+
+ .opacity{
+     position: absolute; 
+    opacity: 0.69;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(19, 19, 19);
+}
+
+ /* ----------------------nav-bar-------------------------------------------------------  */
+
+.nav-bar{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    z-index:10;
+    background-color: transparent;
+}
+
+.nav-bar img{
+    background-color: transparent;
+    position: relative;
+    
+}
+
+.nav-bar select{
+    background-color: rgba(24, 23, 23, 0.877);
+    width: 100px;
+    height: 31px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.94rem;
+    border: 1.2px rgb(211, 206, 206) solid;
+    margin-left:  790px ;
+    position: relative;
+    
+}
+
+
+
+.nav-bar button {
+    background-color: rgba(229, 9, 20, 1);
+    height: 30px;
+    width: 74px;
+    border: transparent;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    z-index: 10;
+    position: relative;
+}
+
+.nav-bar button:hover{
+     background-color: rgb(206, 23, 54);
+}
+
+.nav-bar button a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* -----------------------block------------------------------------ */
+
+.block{
+    text-align: center;
+    margin-top: 160px;
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.block h1{
+     font-size: 55px;
+     margin: 0;
+     line-height:1.3;
+     background-color: transparent;
+}
+
+.block p{
+    font-size: 1.4rem;
+    line-height: 3;
+    background-color: transparent;
+}
+
+.block h3{
+    background-color: transparent;
+}
+
+.block input{
+     background-color: rgba(24, 23, 23, 0.877);
+     width: 375px;
+     height: 22px;
+     border-radius: 5px;
+     border: 1.2px rgb(211, 206, 206) solid;
+     font-size: 1.2rem;
+     margin-top: 20px;
+     padding: 17px 17px;
+}
+
+.block button{
+    background-color: rgba(229, 9, 20, 1);
+    height: 56px;
+    width: 201px;
+    border: transparent;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin-left: 5px;
+}
+
+.block button:hover{
+    background-color: rgb(206, 23, 54);
+    cursor: pointer;
+}
+
+.block button i{
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+/* ******************************************BOX2********************************************************* */
+
+.box{
+    height: 405px;
+    margin-top: 10px;
+    background-color: black;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 1.2rem;
+    background-size: cover;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.text1{
+    background-color: transparent;
+    align-self: center;
+    
+}
+
+.text1  h1{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.text1 p{
+    font-size: 1.45rem;
+    background-color: transparent;
+}
+
+.tv-img{
+    background-color: transparent;
+    align-self: center;
+    display: flex;
+}
+
+#img1{
+ 
+    background-color: transparent;
+    height: 400px;
+    width: 590px;
+    position: relative;
+    z-index: 10;
+}
+
+.tv-video{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 70px;
+    left: 57.3%;
+}
+
+/* ******************************************BOX3********************************************************* */
+
+.box3{
+    display: flex;
+    justify-content:space-around ;
+}
+
+.mobile-img{
+    background-color: transparent;
+    align-self: center;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+#img{
+    background-color: transparent;
+    position: relative;
+}
+
+.boxshot{
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    margin-top: 18rem;
+    left: 7rem;
+    width: 348px;
+    height: 84px;
+    border: 2px rgb(211, 206, 206) solid ;
+    border-radius:10px ;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+#boxshot-img{
+    background-color: black;
+    height: 84px;
+}
+
+.boxshot-div{
+    background-color: black;
+    align-self: center;
+    margin-left: 0.5rem;
+}
+
+.boxshot-div h3{
+    background-color: black;
+}
+
+.boxshot-div span{
+    background-color: black;
+    color: #0071eb;;
+}
+
+#download-icon{
+    color: #0071eb;
+    background-color: transparent;
+    margin-left: 7rem;
+    margin-top: 1.8rem;
+}
+
+.text2{
+    background-color: transparent;
+      align-self: center;
+}
+
+.text2  h1{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.text2 span{
+    font-size: 1.45rem;
+    background-color: transparent;
+}
+
+
+/* ******************************************BOX4********************************************************* */
+
+.box4{
+     display: flex;
+     justify-content: space-around;
+     
+}
+
+.text3{
+    background-color: transparent;
+    align-self: center;
+    padding-left: 2.8rem;
+}
+
+.text3  h1{
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.text3 span{
+  font-size: 1.45rem;
+  background-color: transparent;
+  
+}
+
+.pc_img{
+    background-color: transparent;
+    align-self: center;
+}
+
+#img2{
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+}
+
+#pc-video{
+    position: absolute;
+    left: 63%;
+    margin-top: 50px;
+    background-color: transparent;
+}
+
+
+/* ******************************************BOX5********************************************************* */
+
+
+.box5{
+    display: flex;
+    justify-content:space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.cartoon-img{
+    background-color: transparent;
+
+}
+
+.text4{
+    width: 500px;
+    height: 203px;
+    background-color: transparent;
+    align-self: center;
+}
+
+.text4 h1{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.text4 span{
+    font-size: 1.45rem;
+    background-color: transparent;
+}
+
+/* -----------------------------------end1-------------------------------------------- */
+
+.end1{
+    height: 670px;
+    margin-top: 10px;
+    background-color: black;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 1.2rem;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.end1 h1{
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+.end1-button1{
+    height: 74px;
+    width: 96%;
+    padding: 24px 24px 24px 24px;
+    background-color: rgba(45, 45, 45, 1);
+    border: 0;
+    align-self: center;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.end1-button1:hover{
+    cursor: pointer;
+    background-color: rgb(73, 72, 72); ;
+}
+
+.button1-icon{
+    background-color: transparent;
+    
+}
+
+.end1 h3{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.end1-text{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.end1 input{
+    background-color: rgba(24, 23, 23, 0.877);
+     width: 375px;
+     height: 22px;
+     border-radius: 5px;
+     border: 1.2px rgb(211, 206, 206) solid;
+     font-size: 1.2rem;
+     margin-top: 20px;
+     padding: 17px 17px;
+     display: flex;
+     color: white;
+     
+}
+
+#end1-button2{
+    background-color: rgba(229, 9, 20, 1);
+    height: 56px;
+    width: 201px;
+    border: transparent;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin-left: 5px;
+    margin-top: 1.7%;
+}
+
+#end1-button2:hover{
+    background-color: rgb(206, 23, 54);
+    cursor: pointer;
+}
+
+#button2-icon{
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+/* ------------------------end2---------------------------------------------- */
+
+.end2{
+    height: 300px;
+    margin-top: 10px;
+    background-color: black;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.foot{
+   
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 250px;
+}
+
+#end2-h3{
+    background-color: transparent;
+    color: rgb(188, 184, 184);
+    font-size: 1rem;
+    padding-bottom: 20px;
+    padding-left: 38px;
+   
+}
+
+u{
+    background-color:transparent;
+    color: rgb(188, 184, 184);
+}
+
+.link {
+    background-color: transparent;
+}
+
+.link ol{
+    background-color: transparent;
+    line-height: 2.3;
+    font-size: 0.9rem;
+    
+}
+
+.link a{
+    background-color: transparent;
+    color: rgb(188, 184, 184);
+}
+
+ol select{
+    
+        background-color: rgba(24, 23, 23, 0.877);
+        width: 120px;
+        height: 31px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 0.94rem;
+        border: 1.2px rgb(211, 206, 206) solid;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
+}
+
+#span1{
+         background-color: transparent;
+         color: rgb(188, 184, 184);
+         font-size: 0.9rem;
+}
+
